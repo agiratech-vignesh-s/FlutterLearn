@@ -13,7 +13,8 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
-
+  firebase_core:
+  firebase_crashlytics: ^3.3.4
   #StateManagements
   hooks_riverpod: ^2.3.6
   rxdart: ^0.27.7

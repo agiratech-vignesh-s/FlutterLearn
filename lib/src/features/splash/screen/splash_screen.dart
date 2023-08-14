@@ -26,8 +26,9 @@ class SplashScreen extends HookConsumerWidget {
     );
     return Scaffold(
       body: Container(
-          color: AppColors.primaryColor,
-          child: Center(child: Text(StringConstants.appName.tr(context)))),
+
+          child: Center(child: TextButton(onPressed: ()=>throw Exception()
+              ,child: Text(StringConstants.appName.tr(context))))),
     );
   }
 }
